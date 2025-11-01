@@ -7,5 +7,5 @@ class Property(models.Model):
     description = models.TextField(null=False)
     price = models.DecimalField(max_digits=10, decimal_places=2)
     location = models.CharField(max_length=100, null=False)
-    create_at = models.DateField(auto_now_add=True)
+    created_at = models.DateField(auto_now_add=True)
     

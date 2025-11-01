@@ -20,6 +20,8 @@ services:
     container_name: redis
     ports:
       - "6379:6379"
+    volumes:
+      - redis_data:/var/lib/redis
     networks:
       - backend
 
