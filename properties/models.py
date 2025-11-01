@@ -8,4 +8,3 @@ class Property(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     location = models.CharField(max_length=100, null=False)
     created_at = models.DateField(auto_now_add=True)
-    
